@@ -9,9 +9,13 @@ import { TemhComponent } from '../temh/temh.component';
   styles: ``
 })
 export class TempComponent {
+<<<<<<< HEAD
   title= "Saludo desde el componente padre"
   mensaje2:string=""
   recibirMensaje(mensaje:string){
     this.mensaje2=mensaje
   }
+=======
+
+>>>>>>> ad582129bff2e2367557dac0232c1aef27417761
 }
