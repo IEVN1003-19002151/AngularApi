@@ -5,7 +5,7 @@ import { AlumnosUtl } from './utl';
   name: 'alumnoFilter',
   standalone: true
 })
-export  class AlumnoFilterPipe implements PipeTransform {
+export class AlumnoFilterPipe implements PipeTransform {
  
   transform(value: AlumnosUtl[], args: string): AlumnosUtl[] {
     let filter:string=args ?args.toLocaleLowerCase():'';

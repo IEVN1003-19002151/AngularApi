@@ -5,8 +5,3 @@ export interface AlumnosUtl {
     amaterno:string;
     correo:string;
   }
-
-  
-
-
-  
